@@ -1,0 +1,27 @@
+{
+  name: erekir-satellite
+  localizedName: "Тень"
+  parent: erekir
+  radius: 0.5
+  orbitSpacing: 0.5
+  orbitTime: 80
+  rotateTime: 40
+
+  accessible: false
+
+  atmosphereColor: b06a3a
+  atmosphereRadIn: 0.02
+  atmosphereRadOut: 0.12
+
+  mesh: {
+    type: NoiseMesh
+    planet: erekir-sat
+    seed: 8842
+    divisions: 4
+    color1: b06a3a
+    color2: 5a3322
+    radius: 0.5
+    octaves: 4
+    persistence: 0.7
+  }
+}

@@ -1,0 +1,7 @@
+name: "space-decor-mod"
+displayName: Space decor"
+author: "BlackCit"
+description: "Добавляет декоративные планеты."
+version: "1.0"
+minGameVersion: "146"
+hidden: true
